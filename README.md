@@ -1,1 +1,2 @@
 # maywendyphotography
+# maywendyphotography.github.io
