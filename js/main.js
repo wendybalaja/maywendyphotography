@@ -162,6 +162,7 @@
 		$("body").fadeIn(2000);
 		
 		$("a.transition").click(function(event){
+			
 		  	event.preventDefault();
 		  	var linkLocation = this.href;
 
@@ -179,7 +180,6 @@
 		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
 
 			var $this = $(this);
-
 			$('body').toggleClass('fh5co-overflow offcanvas-visible');
 			$this.toggleClass('active');
 			event.preventDefault();
@@ -263,7 +263,7 @@
 			    	}, 500);	
 			    	
 			   }
-			   event.preventDefault();
+			//    event.preventDefault();
 
 			});
 		}
